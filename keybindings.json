@@ -1,0 +1,35 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "ctrl+shift+m",
+    "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "cmd+e cmd+q",
+    "command": "SQLTools.newSqlFile"
+  },
+  {
+    "key": "cmd+e cmd+n",
+    "command": "SQLTools.openAddConnectionScreen"
+  },
+  {
+    "key": "cmd+e cmd+c",
+    "command": "SQLTools.selectConnection"
+  },
+  {
+    "key": "cmd+e cmd+d",
+    "command": "-SQLTools.describeTable"
+  },
+  {
+    "key": "cmd+e cmd+r",
+    "command": "-SQLTools.deleteBookmark"
+  },
+  {
+    "key": "cmd+e cmd+a",
+    "command": "-SQLTools.runFromBookmarks"
+  },
+  {
+    "key": "cmd+e cmd+d",
+    "command": "SQLTools.closeConnection"
+  }
+]

@@ -1,0 +1,65 @@
+{
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Nord",
+    "files.autoSaveDelay": 1500,
+    "terminal.integrated.scrollback": 9999,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.currentLine.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "window.zoomLevel": 1,
+    "search.exclude": {
+        "**/.cache": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.vscode/": true,
+        "**/*.d.ts": true,
+        "**/build": true,
+        "**/dist": true,
+        "**/node_modules": true
+    },
+    "files.watcherExclude": {
+        "**/dist/**": true,
+    },
+    "files.exclude": {
+        "**/.cache": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/.vscode/": true,
+        "**/build": true,
+        "**/CVS": true,
+        "**/dist": true,
+        "**/node_modules": true
+    },
+    "editor.tabSize": 2,
+    "editor.tokenColorCustomizations": {
+        "[Nord]": {
+            "comments": {
+                "fontStyle": "italic bold",
+                "foreground": "#a7abb1"
+            },
+            "textMateRules": [
+                {
+                    "scope": "punctuation.definition.comment",
+                    "settings": {
+                        "foreground": "#a7abb1",
+                    }
+                }
+            ]
+        }
+    },
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "workbench.sideBar.location": "right",
+    "files.autoSave": "afterDelay",
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.activityBar.visible": true,
+    "markdown-preview-enhanced.previewTheme": "solarized-light.css",
+    "workbench.tree.renderIndentGuides": "none"
+}
